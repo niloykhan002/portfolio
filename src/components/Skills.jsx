@@ -17,7 +17,7 @@ const Skills = () => {
         {/* Frontend */}
         <div>
           <h3 className="text-3xl font-semibold my-12 ">Frontend</h3>
-          <div className="flex gap-5">
+          <div className="flex flex-wrap gap-5">
             <div className="p-5 flex flex-col justify-center border border-gray-100 items-center rounded-3xl shadow-lg w-fit">
               <img className="w-24" src={html} alt="" />
               <h3>HTML</h3>
@@ -40,7 +40,7 @@ const Skills = () => {
         {/* Backend */}
         <div>
           <h3 className="text-3xl font-semibold my-12 ">Backend</h3>
-          <div className="flex gap-5">
+          <div className="flex flex-wrap gap-5">
             <div className="p-5 flex flex-col justify-center border border-gray-100 items-center rounded-3xl shadow-lg w-fit">
               <img className="w-24" src={nodejs} alt="" />
               <h3>Node.js</h3>
@@ -55,7 +55,7 @@ const Skills = () => {
         {/* Database */}
         <div>
           <h3 className="text-3xl font-semibold my-12 ">Database</h3>
-          <div className="flex gap-5">
+          <div className="flex flex-wrap gap-5">
             <div className="p-5 flex flex-col justify-center border border-gray-100 items-center rounded-3xl shadow-lg w-fit">
               <img className="w-24" src={mongodb} alt="" />
               <h3>MongoDB</h3>
@@ -66,7 +66,7 @@ const Skills = () => {
         {/* Dev Tools & Others */}
         <div>
           <h3 className="text-3xl font-semibold my-12 ">Dev Tools & Others</h3>
-          <div className="flex gap-5">
+          <div className="flex flex-wrap gap-5">
             <div className="p-5 flex flex-col justify-center border border-gray-100 items-center rounded-3xl shadow-lg w-fit">
               <img className="w-24" src={vscode} alt="" />
               <h3>VS Code</h3>
